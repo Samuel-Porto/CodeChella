@@ -28,7 +28,7 @@ footer ul {
     }
 }
 
-.with-bg {
+.footer__with-bg {
     background: var(--cor-roxo-boreal);
 }
 
