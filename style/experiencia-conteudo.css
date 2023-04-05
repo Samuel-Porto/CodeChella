@@ -1,0 +1,87 @@
+.experiencia__conteudo {
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+.experiencia__conteudo h3 {
+    font-family: var(--fonte-principal);
+    font-size: 32px;
+    font-weight: 700;
+    padding: 1rem 0;
+}
+
+.experiencia__conteudo p {
+    font-weight: 500;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.experiencia__conteudo .experiencia__sessao {
+    padding-bottom: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+    .experiencia__conteudo .acessibilidade-inclusao img {
+        content: url("../img/experiência1.svg");
+    }
+    .experiencia__conteudo .sustentabilidade img {
+        content: url("../img/experiência2.svg");
+    }
+    .experiencia__conteudo .atracoes img {
+        content: url("../img/experiência3.svg");
+    }
+
+    .experiencia__conteudo .acessibilidade-inclusao p {
+        padding: 0 6rem;
+    }
+    .experiencia__conteudo .sustentabilidade p {
+        padding: 0 2rem;
+    }
+    .experiencia__conteudo .atracoes p {
+        padding: 0 .2rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .experiencia__conteudo .acessibilidade-inclusao, 
+    .experiencia__conteudo .sustentabilidade, 
+    .experiencia__conteudo .atracoes {
+        display: grid;
+        margin: 0;
+        padding: 64px 120px;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .acessibilidade-inclusao {
+        grid-template-areas:
+        "imagem descricao";
+    }
+    .sustentabilidade {
+        grid-template-areas: 
+        "descricao imagem";
+    }
+    .atracoes {
+        grid-template-areas: 
+        "imagem descricao";
+    }
+
+    .experiencia__conteudo .experiencia__sessao p {
+        padding: 0;
+    }
+    .experiencia__conteudo .experiencia__sessao img {
+        grid-area: imagem;
+    }
+    .experiencia__conteudo .experiencia__descricao {
+        grid-area: descricao;
+    }
+
+    .experiencia__conteudo .acessibilidade-inclusao .experiencia__descricao, 
+    .experiencia__conteudo .atracoes .experiencia__descricao {
+        text-align: left;
+    }
+
+    .experiencia__conteudo .sustentabilidade .experiencia__descricao {
+        text-align: right;
+    }
+}

@@ -1,0 +1,16 @@
+.line-up {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.line-up  p{
+    font-family: var(--fonte-secundaria);
+    font-size: 48px;
+}
+
+@media screen and (min-width: 768px) {
+    .line-up p {
+        font-size: 64px;
+        margin-top: 3rem;
+    }
+}

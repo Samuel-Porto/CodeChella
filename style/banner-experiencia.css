@@ -1,0 +1,30 @@
+.banner__experiencia {
+    position: relative;
+}
+
+.banner__experiencia img {
+    height: 270px;
+    opacity: 0.5;
+    width: 100%;
+}
+
+.banner__experiencia h2 {
+    position: absolute;
+    top: calc(50% - 16px);
+    left: calc(50% - 97px);
+    font-family: var(--fonte-secundaria);
+    font-size: 32px;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+    .banner__experiencia img {
+        height: 384px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .banner__experiencia img {
+        height: 407px;
+    }
+}

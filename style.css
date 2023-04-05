@@ -1,0 +1,27 @@
+@import url("reset.css");
+@import url("style/nav.css");
+@import url("style/banner-index.css");
+@import url("style/data.css");
+@import url("style/line-up.css");
+@import url("style/atracoes.css");
+@import url("style/footer.css");
+
+@import url("style/banner-experiencia.css");
+@import url("style/experiencia-conteudo.css");
+
+:root {
+    --cor-bg: linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 100%);
+    --cor-fonte-principal: #ffffff;
+    --cor-roxo-boreal: #4650BD;
+    --fonte-principal: 'Raleway';
+    --fonte-secundaria: 'Calistoga', sans-serif;
+    --cor-sombra: #444444;
+    --cor-verde-escuro:  #008364;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    color: var(--cor-fonte-principal);
+    background: var(--cor-bg);
+    background-repeat: no-repeat;
+}

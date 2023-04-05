@@ -1,0 +1,27 @@
+.banner__index{
+    align-items: center;
+    background-image: url("../img/boreal.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 50%;
+    display: flex;
+    height: 270px;
+    width: 100%;
+    justify-content: center;
+}
+
+.banner__index h2 {
+    font-family: var(--fonte-secundaria);
+    font-size: 32px;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .banner__index {
+        height: 384px;
+    }
+
+    .banner__index h2 {
+        font-size: 64px;
+    }
+}
