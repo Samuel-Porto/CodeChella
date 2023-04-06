@@ -14,6 +14,9 @@
     height: 24px;
     width: 24px;
 }
+.cabecalho span:hover {
+    cursor: pointer;
+}
 
 .cabecalho .cabecalho__menu__informacoes {
     background: var(--cor-roxo-boreal);
@@ -22,7 +25,7 @@
     font-weight: 700;
     position: absolute;
     right: 0;
-    top: 91px;
+    top: 90px;
     box-shadow: 1px 1px 2px 2px var(--cor-sombra);
 }
 
@@ -47,6 +50,10 @@
 
 .cabecalho .cabecalho__botao:checked ~ .cabecalho__menu__informacoes {
     display: block;
+}
+
+.cabecalho a:hover {
+    background: var(--cor-roxo-hover);
 }
 
 @media  screen and (min-width: 768px) {
