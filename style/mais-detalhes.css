@@ -1,0 +1,71 @@
+.mais--detalhes {
+    padding: 0 1.5rem;
+    text-align: center;
+}
+
+.mais--detalhes h2 {
+    font-size: 32px;
+    font-weight: 700;
+    padding: 2rem 0;
+}
+
+.mais--detalhes h3 {
+    font-size: 32px;
+    font-weight: 700;
+    padding: 1.5rem 0;
+}
+
+.mais--detalhes p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+    padding-bottom: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+    .mais--detalhes {
+        padding: 0 4.5rem;
+    }
+
+    .mais--detalhes h2 {
+        font-size: 40px;
+    }
+
+    .mais--detalhes__pista img {
+        content: url("../img/pista.svg");
+    }
+    .mais--detalhes__pista--premium img {
+        content: url("../img/pista__premium.svg");
+    }
+    .mais--detalhes__cadeiras img {
+        content: url("../img/cadeiras.svg");
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .mais--detalhes{
+        padding-bottom: 3rem;
+    }
+
+    .mais--detalhes h2 {
+        padding: 4rem 0;
+    }
+
+    .mais--detalhes .mais--detalhes__sessao{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .mais--detalhes .mais--detalhes__item {
+        width: 31%;
+    }
+
+    .mais--detalhes .mais--detalhes__pista--premium {
+        padding-top: 7rem;
+    }
+    
+    .mais--detalhes .mais--detalhes__item p {
+        padding: .5rem;
+    }
+}

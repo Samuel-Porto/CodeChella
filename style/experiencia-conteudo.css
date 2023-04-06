@@ -16,6 +16,10 @@
     font-size: 20px;
 }
 
+.experiencia__conteudo .experiencia__descricao {
+    padding: 0 1rem;
+}
+
 .experiencia__conteudo .experiencia__sessao {
     padding-bottom: 3rem;
 }
@@ -31,14 +35,10 @@
         content: url("../img/experiência3.svg");
     }
 
-    .experiencia__conteudo .acessibilidade-inclusao p {
-        padding: 0 6rem;
-    }
+    .experiencia__conteudo .acessibilidade-inclusao p, 
+    .experiencia__conteudo .atracoes p, 
     .experiencia__conteudo .sustentabilidade p {
-        padding: 0 2rem;
-    }
-    .experiencia__conteudo .atracoes p {
-        padding: 0 .2rem;
+        padding: 0 6rem;
     }
 }
 

@@ -1,0 +1,83 @@
+.palco {
+    text-align: center;
+}
+
+.palco img {
+    width: 100%;
+    max-width: 648px;
+}
+
+.palco .legendas {
+    text-align: left;
+    margin: 0 50%;
+}
+
+.palco h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.palco .palco__legendas {
+    text-align: left;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: 32px 198px;
+    grid-template-rows: repeat(6, 32px);
+    grid-template-areas:
+    "titulo titulo"
+    "azul um"
+    "vermelho dois"
+    "verde tres"
+    "roxo quatro"
+    "azul-escuro cinco";
+    justify-content: center;
+}
+
+.palco__legendas__titulo {
+    grid-area: titulo;
+}
+.palco .quadrado__azul {
+    background: #0E7DF1;
+    grid-area: azul;
+}
+.palco .quadrado__vermelho {
+    background: #FE016E;
+}
+.palco .quadrado__verde {
+    background: #01A89E;
+}
+.palco .quadrado__roxo {
+    background: #3F51B5;
+}
+.palco .quadrado__azul--escuro {
+    background: #0E7DF1;
+}
+
+.palco .palco__legendas__titulo, .palco .palco__legendas__descricao {
+    align-self: center;
+}
+
+.palco .palco__legendas__descricao {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+    .palco .palco__legendas__titulo {
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .palco {
+        display: flex;
+        gap: 4rem;
+        justify-content: center;
+    }
+
+    .palco .palco__legendas {
+        justify-content: left;
+        margin: auto 0;
+        width: 510px;
+    }
+}

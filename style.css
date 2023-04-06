@@ -1,13 +1,16 @@
 @import url("reset.css");
 @import url("style/nav.css");
-@import url("style/banner-index.css");
+@import url("style/banner.css");
+
 @import url("style/data.css");
 @import url("style/line-up.css");
 @import url("style/atracoes.css");
-@import url("style/footer.css");
 
-@import url("style/banner-experiencia.css");
 @import url("style/experiencia-conteudo.css");
+@import url("style/palco.css");
+@import url("style/mais-detalhes.css");
+
+@import url("style/footer.css");
 
 :root {
     --cor-bg: linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 100%);
