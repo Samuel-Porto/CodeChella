@@ -1,0 +1,49 @@
+.perguntas--frequentes {
+    margin: 3rem 1.5rem;
+}
+
+.perguntas--frequentes h2 {
+    font-family: var(--fonte-secundaria);
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.perguntas--frequentes ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 0 auto;
+}
+
+.perguntas--frequentes .title {
+    align-items: center;
+    background: var(--cor-roxo-boreal);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.perguntas--frequentes .title h3 {
+    font-size: 32px;
+    font-weight: 700;
+}
+.perguntas--frequentes ul li p {
+    background: var(--cor-azul-claro);
+    color: var(--cor-cinza);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+.perguntas--frequentes ul li p a {
+    color: var(--cor-cinza);
+}
+
+@media screen and (min-width: 768px) {
+    .perguntas--frequentes {
+        margin: 3rem 3.75rem;
+    }
+}

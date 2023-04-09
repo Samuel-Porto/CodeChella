@@ -10,6 +10,10 @@
 @import url("style/palco.css");
 @import url("style/mais-detalhes.css");
 
+@import url("style/perguntas-frequentes.css");
+
+@import url("style/formulario.css");
+
 @import url("style/footer.css");
 
 :root {
@@ -21,6 +25,8 @@
     --fonte-secundaria: 'Calistoga', sans-serif;
     --cor-sombra: #444444;
     --cor-verde-escuro:  #008364;
+    --cor-azul-claro: #C8DEEF;
+    --cor-cinza: #444444;
 }
 
 body {

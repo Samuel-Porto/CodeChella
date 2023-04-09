@@ -1,0 +1,94 @@
+.formulario {
+    margin: 3rem 1.5rem;
+}
+
+.formulario h2 {
+    font-family: var(--fonte-secundaria);
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.formulario form label {
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+}
+
+.formulario form input {
+    font-family: var(--fonte-principal);
+    font-size: 24px;
+    height: 3rem;
+    margin-bottom: 2rem;
+    max-width: 795px;
+    text-align: center;
+    width: 100%;
+}
+
+.formulario .formulario__data input {
+    max-width: 453px;
+}
+
+.formulario button {
+    background: var(--cor-roxo-boreal);
+    border: 0;
+    border-radius: 1rem;
+    box-shadow: 4px 4px black;
+    display: flex;
+    gap: 1rem;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+}
+.formulario button:hover {
+    background: var(--cor-roxo-hover);
+    cursor: pointer;
+}
+
+.formulario button p {
+    color: var(--cor-fonte-principal);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.formulario button img {
+    fill: white;
+    height: 40px;
+    width: 32px;
+}
+
+@media screen and (min-width: 768px) {
+    .formulario {
+        margin: 3rem 3.75rem;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    .formulario ul {
+        display: grid;
+        gap: 1.5rem;
+        grid-template-areas:
+        "nome nome"
+        "email email"
+        "ingresso data";
+        margin: 0 auto;
+        width: 795px;
+    }
+
+    .formulario__nome {
+        grid-area: nome;
+    }
+    .formulario__email {
+        grid-area: email;
+    }
+    .formulario__ingresso {
+        grid-area: ingresso;
+        width: 385px;
+    }
+    .formulario__data {
+        grid-area: data;
+        width: 385px;
+    }
+}
