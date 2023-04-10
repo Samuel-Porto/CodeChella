@@ -1,0 +1,77 @@
+.ingresso {
+    margin: 3rem 1.5rem;
+}
+
+.ingresso h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.ingresso .ingresso--pessoal {
+    background: var(--cor-bg);
+    padding: 2rem;
+}
+
+.ingresso .ingresso--pessoal__topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.ingresso .ingresso--pessoal__topo img {
+    height: 32px;
+}
+
+.ingresso .ingresso--pessoal__corpo {
+    text-align: center;
+}
+
+.ingresso .ingresso--pessoal__corpo img {
+    height: 190px;
+    margin-bottom: 2rem;
+}
+
+.ingresso .ingresso--pessoal__corpo h3 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.ingresso .ingresso--pessoal__corpo p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+@media screen and (min-width: 768px) {
+    .ingresso {
+        margin: 3rem 3.75rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .ingresso {
+        max-width: 792px;
+        margin: 3rem auto;
+    }
+
+    .ingresso .ingresso--pessoal {
+        max-width: 792px;
+    }
+
+    .ingresso .ingresso--pessoal__corpo {
+        display: flex;
+        gap: 3rem;
+    }
+
+    .ingresso .ingresso--pessoal__corpo h3 {
+        margin-bottom: 1.5rem;
+    }
+    
+    .ingresso .ingresso--pessoal__info p {
+        text-align: left;
+    }
+}

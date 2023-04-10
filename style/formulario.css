@@ -62,13 +62,12 @@
     .formulario {
         margin: 3rem 3.75rem;
     }
-
 }
 
 @media screen and (min-width: 1440px) {
     .formulario ul {
         display: grid;
-        gap: 1.5rem;
+        column-gap: 1.5rem;
         grid-template-areas:
         "nome nome"
         "email email"
