@@ -11,6 +11,8 @@
 
 .ingresso .ingresso--pessoal {
     background: var(--cor-bg);
+    max-width: 312px;
+    margin: 0 auto;
     padding: 2rem;
 }
 
@@ -49,6 +51,15 @@
 @media screen and (min-width: 768px) {
     .ingresso {
         margin: 3rem 3.75rem;
+    }
+
+    .ingresso .ingresso--pessoal {
+        max-width: 648px;
+        margin: 0 auto;
+    }
+
+    .ingresso .ingresso--pessoal__corpo img {
+        height: 310px;
     }
 }
 

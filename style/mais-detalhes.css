@@ -1,4 +1,5 @@
 .mais--detalhes {
+    max-width: 1440px;
     padding: 0 1.5rem;
     text-align: center;
 }
@@ -45,6 +46,7 @@
 @media screen and (min-width: 1440px) {
     .mais--detalhes{
         padding-bottom: 3rem;
+        margin: 0 auto;
     }
 
     .mais--detalhes h2 {

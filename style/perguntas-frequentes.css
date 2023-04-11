@@ -1,5 +1,6 @@
 .perguntas--frequentes {
     margin: 3rem 1.5rem;
+    max-width: 996px;
 }
 
 .perguntas--frequentes h2 {
@@ -44,6 +45,12 @@
 
 @media screen and (min-width: 768px) {
     .perguntas--frequentes {
-        margin: 3rem 3.75rem;
+        margin: 3rem auto;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .perguntas--frequentes {
+        margin: 3rem auto;
     }
 }
